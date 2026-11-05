@@ -1,0 +1,13 @@
+Cenário: Uma fábrica com maquinários de grande porte sofre paradas repentinas na linha de produção devido a quebras imprevistas de peças vitais.
+
+Problema Central de Negócio: Alto custo com manutenção emergencial e perda de faturamento por tempo de produção parado.
+
+Meta de Negócio: Reduzir o tempo de inatividade não planejado (downtime) em 15% e diminuir o custo de manutenção preventiva desnecessária.
+
+Meta Técnica (Mineração de Dados): Implementar um modelo de Manutenção Preditiva (Regressão / Análise de Séries Temporais) que utilize sensores IoT (temperatura, vibração, rotação) para prever o Tempo Útil Restante (RUL - Remaining Useful Life) das máquinas com uma margem de erro (RMSE) inferior a 5%.
+
+FASE 2
+Fontes: https://github.com/jaysri125278/Predictive-Maintenance/blob/main/MDT32_final_project_dataset.csv
+Linhas: 10001
+Colunas: 10 
+Sensores mapeados: Temperatura, RPM, Torque, Tipo de Falha
